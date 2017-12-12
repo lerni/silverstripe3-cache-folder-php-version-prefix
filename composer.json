@@ -1,0 +1,34 @@
+{
+    "name": "lerni/silverstripe3-cachefolder-phpversion-prefix",
+    "description": "A patch for SilverStripe to prefix cache-folder with php version - prevent 503 on version change",
+    "type": "silverstripe-patch",
+    "homepage": "http://github.com/lerni/silverstripe3-cachefolder-phpversion-prefix",
+    "keywords": ["silverstripe", "cache", "patch"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Lukas Erni",
+            "email": "le@kraftausdruck.ch"
+        }
+    ],
+    "support": {
+        "issues": "http://github.com/lerni/hubspot/silverstripe3-cachefolder-phpversion-prefix"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "silverstripe/siteconfig": "~3.6"
+    },
+    "require": {
+        "netresearch/composer-patches-plugin": "^1.2.1"
+    },
+    "extra": {
+        "patches": {
+            "silverstripe/framework": [
+                {
+                    "title": "[PATCH]Composer installable patch to add PHP-Version to path in silverstrpe-cache (prevent 503 on php version change)",
+                    "url": "https://gist.githubusercontent.com/lerni/728db328acf3fcc38fac5419270745b1/raw/058331c23866990fa694c11231e4af4ce2aae85a/ss3-cache-path-php-prefix.patch"
+                }
+            ]    
+        }
+    }
+}
