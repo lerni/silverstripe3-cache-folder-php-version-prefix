@@ -12,7 +12,7 @@
         }
     ],
     "support": {
-        "issues": "http://github.com/lerni/hubspot/silverstripe3-cachefolder-phpversion-prefix"
+        "issues": "http://github.com/lerni/silverstripe3-cachefolder-phpversion-prefix"
     },
     "require": {
         "silverstripe/siteconfig": "~3.6"
