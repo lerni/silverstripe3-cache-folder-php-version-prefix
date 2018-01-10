@@ -3,6 +3,8 @@
 - https://github.com/silverstripe/silverstripe-framework/issues/2986
 - https://github.com/silverstripe/silverstripe-framework/pull/6810
 
+![screenshot of where it adds the prefix](whatitdoes.png)
+
 ## Requirements
 * SilverStripe ~3.6 (just tested with that)
 

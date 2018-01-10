@@ -15,19 +15,14 @@
         "issues": "http://github.com/lerni/silverstripe3-cachefolder-phpversion-prefix"
     },
     "require": {
-        "silverstripe/siteconfig": "~3.6"
-    },
-    "require": {
-        "netresearch/composer-patches-plugin": "^1.2.1"
+        "silverstripe/framework": ">=3.6.0 <3.7.0",
+        "cweagans/composer-patches": "^1.6.4"
     },
     "extra": {
         "patches": {
-            "silverstripe/framework": [
-                {
-                    "title": "[PATCH]Composer installable patch to add PHP-Version to path in silverstrpe-cache (prevent 503 on php version change)",
-                    "url": "https://gist.githubusercontent.com/lerni/728db328acf3fcc38fac5419270745b1/raw/058331c23866990fa694c11231e4af4ce2aae85a/ss3-cache-path-php-prefix.patch"
-                }
-            ]    
+            "silverstripe/framework": {
+                "Bug #2986: [PATCH]Composer installable patch to add PHP-Version to path in silverstrpe-cache (prevent 503 on php version change)": "patches/ss3-cache-path-php-prefix.patch"
+            }
         }
     }
 }
