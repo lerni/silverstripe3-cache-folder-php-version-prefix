@@ -22,7 +22,7 @@
             "silverstripe/framework": [
                 {
                     "title": "[PATCH]Composer installable patch to add PHP-Version to path in silverstrpe-cache (prevent 503 on php version change)",
-                    "url": "https://gist.githubusercontent.com/lerni/728db328acf3fcc38fac5419270745b1/raw/058331c23866990fa694c11231e4af4ce2aae85a/ss3-cache-path-php-prefix.patch"
+                    "url": "https://gist.githubusercontent.com/lerni/728db328acf3fcc38fac5419270745b1/raw/9cbca261a60c45d4d55831b49b2e1f23c9454dae/ss3-cache-path-php-prefix.patch"
                 }
             ]
         }
