@@ -19,10 +19,7 @@
         "cweagans/composer-patches": "^1.6.4"
     },
     "extra": {
-        "patches": {
-            "silverstripe/framework": {
-                "Bug #2986: [PATCH]Composer installable patch to add PHP-Version to path in silverstrpe-cache (prevent 503 on php version change)": "patches/ss3-cache-path-php-prefix.patch"
-            }
-        }
+        "patches-file": "composer.patches.json",
+        "enable-patching": true
     }
 }
