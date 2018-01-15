@@ -15,8 +15,7 @@
         "issues": "http://github.com/lerni/silverstripe3-cachefolder-phpversion-prefix"
     },
     "require": {
-        "netresearch/composer-patches-plugin": "^1.2.1",
-        "silverstripe/framework": ">=3.6.0 <3.7.0"
+        "netresearch/composer-patches-plugin": "^1.2.1"
     },
     "extra": {
         "patches": {
